@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.box{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+.data-box1{
+    margin-right: 50px;
+    display: flex;
+    line-height: 30px;
+}
+.data-box1 a {
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data-box1 a:hover{
+    text-decoration: underline;
+}
+
+.data-box2{
+    display: flex;
+}
+a#left{
+    margin-right: 15px;
+}
+#btn-left{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #4683ea;
+    height: 30px;
+    line-height: 30px;
+    width: 65px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    cursor: pointer;
+}
+
+div.logo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+div.search{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.search-box{
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    width: 582px;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.search-box:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+#search-input{
+    width: 480px;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.button-area{
+    margin-top: 30px;
+}
+
+.src-btn{
+    border: 1px solid #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    width: 120px;
+}
+.src-btn:hover{
+    box-shadow: 1px 1px 5px grey;
+    cursor: pointer;
+}
+
+.google-offered{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    font-family: sans-serif;
+    height: 200px;
+}
+
+.location{
+    height: 48px;
+    line-height: 48px;
+    background-color: #ebeaea;
+}
+.turkey{
+    margin-left: 40px;
+    color: #5f6368;
+}
+
+.footer{
+    height: 45px;
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    display: flex;
+    justify-content: space-between;
+    line-height: 55px;
+    
+
+}
+.left-box a{
+    color: #5f6368;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.left-box a:hover{
+    text-decoration: underline;
+}
+
+.right-box a{
+    color: #5f6368;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.right-box a:hover{
+    text-decoration: underline;
+}
